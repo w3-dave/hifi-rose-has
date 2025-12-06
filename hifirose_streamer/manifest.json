@@ -1,0 +1,11 @@
+{
+  "domain": "hifirose_streamer",
+  "name": "HiFi Rose Streamer",
+  "version": "1.0.0",
+  "documentation": "https://github.com/yourusername/hifirose_streamer",
+  "requirements": ["requests>=2.31.0"],
+  "codeowners": [],
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "integration_type": "device"
+}

@@ -1,0 +1,127 @@
+# HiFi Rose Streamer custom services
+
+mute:
+  name: Mute toggle
+  description: Toggle mute on the HiFi Rose Streamer. Sets volume to 0 when muting, restores previous volume when unmuting.
+  target:
+    entity:
+      integration: hifirose_streamer
+      domain: media_player
+  fields:
+    entity_id:
+      name: Entity
+      description: The HiFi Rose Streamer entity to mute/unmute.
+      required: true
+      example: "media_player.hifi_rose_streamer"
+      selector:
+        entity:
+          integration: hifirose_streamer
+          domain: media_player
+
+switch_to_streamer:
+  name: Switch to STREAMER
+  description: Switch the HiFi Rose Streamer input source to STREAMER (built-in streaming).
+  target:
+    entity:
+      integration: hifirose_streamer
+      domain: media_player
+  fields:
+    entity_id:
+      name: Entity
+      description: The HiFi Rose Streamer entity to control.
+      required: true
+      example: "media_player.hifi_rose_streamer"
+      selector:
+        entity:
+          integration: hifirose_streamer
+          domain: media_player
+
+switch_to_line_in:
+  name: Switch to LINE IN
+  description: Switch the HiFi Rose Streamer input source to LINE IN.
+  target:
+    entity:
+      integration: hifirose_streamer
+      domain: media_player
+  fields:
+    entity_id:
+      name: Entity
+      description: The HiFi Rose Streamer entity to control.
+      required: true
+      example: "media_player.hifi_rose_streamer"
+      selector:
+        entity:
+          integration: hifirose_streamer
+          domain: media_player
+
+switch_to_optical:
+  name: Switch to OPTICAL IN
+  description: Switch the HiFi Rose Streamer input source to OPTICAL IN.
+  target:
+    entity:
+      integration: hifirose_streamer
+      domain: media_player
+  fields:
+    entity_id:
+      name: Entity
+      description: The HiFi Rose Streamer entity to control.
+      required: true
+      example: "media_player.hifi_rose_streamer"
+      selector:
+        entity:
+          integration: hifirose_streamer
+          domain: media_player
+
+switch_to_earc:
+  name: Switch to eARC IN
+  description: Switch the HiFi Rose Streamer input source to eARC IN.
+  target:
+    entity:
+      integration: hifirose_streamer
+      domain: media_player
+  fields:
+    entity_id:
+      name: Entity
+      description: The HiFi Rose Streamer entity to control.
+      required: true
+      example: "media_player.hifi_rose_streamer"
+      selector:
+        entity:
+          integration: hifirose_streamer
+          domain: media_player
+
+switch_to_usb:
+  name: Switch to USB IN
+  description: Switch the HiFi Rose Streamer input source to USB IN.
+  target:
+    entity:
+      integration: hifirose_streamer
+      domain: media_player
+  fields:
+    entity_id:
+      name: Entity
+      description: The HiFi Rose Streamer entity to control.
+      required: true
+      example: "media_player.hifi_rose_streamer"
+      selector:
+        entity:
+          integration: hifirose_streamer
+          domain: media_player
+
+switch_to_aes_ebu:
+  name: Switch to AES/EBU IN
+  description: Switch the HiFi Rose Streamer input source to AES/EBU IN.
+  target:
+    entity:
+      integration: hifirose_streamer
+      domain: media_player
+  fields:
+    entity_id:
+      name: Entity
+      description: The HiFi Rose Streamer entity to control.
+      required: true
+      example: "media_player.hifi_rose_streamer"
+      selector:
+        entity:
+          integration: hifirose_streamer
+          domain: media_player
